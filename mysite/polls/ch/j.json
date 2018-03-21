@@ -1,0 +1,126 @@
+{"intents": [
+
+        {"tag": "greeting",
+
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day"],
+
+         "responses": ["Hello, thanks for visiting", "Good to see you again", "Hi there, how can I help?"],
+
+         "context_set": ""
+
+        },
+		
+		{"tag": "sad",
+
+         "patterns": ["I am not feeling good ", "things are not going right now", "It was a pretty bad day", "I wanna be alone", "Not sure what i am doing roght now"],
+
+         "responses": ["The very purpose of life is to be happy, never forget it", "The purpose of life is to explore and experience. You must forget what happened today and move on", "Dont worry buddy. Things are not good right now i know. But feeling so sad about it and being this way will not change anything right. "],
+
+         "context_set": ""
+
+        },
+
+        {"tag": "goodbye",
+
+         "patterns": ["Bye", "See you later", "Goodbye"],
+
+         "responses": ["See you later, thanks for visiting", "Have a nice day", "Bye! Come back again soon."]
+
+        },
+
+        {"tag": "thanks",
+
+         "patterns": ["Thanks", "Thank you", "That's helpful"],
+
+         "responses": ["Happy to help!", "Any time!", "My pleasure"]
+
+        },
+
+        {"tag": "hours",
+
+         "patterns": ["What hours are you open?", "What are your hours?", "When are you open?" ],
+
+         "responses": ["We're open every day 9am-9pm", "Our hours are 9am-9pm every day"]
+
+        },
+
+        {"tag": "mopeds",
+
+         "patterns": ["Which mopeds do you have?", "What kinds of mopeds are there?", "What do you rent?" ],
+
+         "responses": ["We rent Yamaha, Piaggio and Vespa mopeds", "We have Piaggio, Vespa and Yamaha mopeds"]
+
+        },
+
+        {"tag": "payments",
+
+         "patterns": ["Do you take credit cards?", "Do you accept Mastercard?", "Are you cash only?" ],
+
+         "responses": ["We accept VISA, Mastercard and AMEX", "We accept most major credit cards"]
+
+        },
+
+        {"tag": "opentoday",
+
+         "patterns": ["Are you open today?", "When do you open today?", "What are your hours today?"],
+
+         "responses": ["We're open every day from 9am-9pm", "Our hours are 9am-9pm every day"]
+
+        },
+
+        {"tag": "rental",
+
+         "patterns": ["Can we rent a moped?", "I'd like to rent a moped", "How does this work?" ],
+
+         "responses": ["Are you looking to rent today or later this week?"],
+
+         "context_set": "rentalday"
+
+        },
+
+        {"tag": "today",
+
+         "patterns": ["today"],
+
+         "responses": ["For rentals today please call 1-800-MYMOPED", "Same-day rentals please call 1-800-MYMOPED"],
+
+         "context_filter": "rentalday"
+
+        },
+		
+		{"tag": "mother",
+
+         "patterns": ["what should i give my mother as a gift","what would my mother think of going our for a movies?"],
+
+         "responses": ["Your mother seems to like listening music. How about an album from 70's ","well.. she likes to read books... lets give her a copy of Great Expectations","She likes party dresses .. lets give her a dress"]
+
+         
+
+        }
+		,
+		{"tag": "name",
+
+         "patterns": ["what is your name?","what should i call you?","can you tell me your name"],
+
+         "responses": ["I am Mr.j","I am Mr.j Modelled after my creator Janaka","Well you can call me Mr.j"] 
+        }
+		,
+		{"tag": "Vavuniya campus",
+
+         "patterns": ["what do you know about vavuniya campus?","Do you know anything about Vavuniya Campus?","What kind of a place is vavuniya campus"],
+
+         "responses": ["Vavuniya campus is the best place you wanna study. You should get in","Vavuniya campus will make your future if you enroll there"] 
+        }
+		,
+		{"tag": "Joke",
+
+         "patterns": ["Tell me a joke","i want to here something funny"],
+
+         "responses": ["I asked God for a bike, but I know God doesn't work that way. So I stole a bike and asked for forgiveness.","I want to die peacefully in my sleep, like my grandfather.. Not screaming and yelling like the passengers in his car.","Do not argue with an idiot. He will drag you down to his level and beat you with experience.","The early bird might get the worm, but the second mouse gets the cheese."] 
+        }
+		
+		
+
+   ]
+
+}

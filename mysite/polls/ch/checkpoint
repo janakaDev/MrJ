@@ -1,0 +1,2 @@
+model_checkpoint_path: "F:\\chatHackadev\\chatter\\mysite\\polls\\ch\\model.tflearn"
+all_model_checkpoint_paths: "F:\\chatHackadev\\chatter\\mysite\\polls\\ch\\model.tflearn"
